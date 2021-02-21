@@ -79,3 +79,6 @@ C:\Users\husey\source\repos\Library\Library\bin\Debug\netcoreapp3.1\LibraryData.
 C:\Users\husey\source\repos\Library\Library\bin\Debug\netcoreapp3.1\LibraryData.pdb
 C:\Users\husey\source\repos\Library\Library\bin\Debug\netcoreapp3.1\Humanizer.dll
 C:\Users\husey\source\repos\Library\Library\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\husey\source\repos\Library\Library\bin\Debug\netcoreapp3.1\LibraryServices.dll
+C:\Users\husey\source\repos\Library\Library\bin\Debug\netcoreapp3.1\LibraryServices.pdb
+C:\Users\husey\source\repos\Library\Library\obj\Debug\netcoreapp3.1\Razor\Views\Catalog\Index.cshtml.g.cs

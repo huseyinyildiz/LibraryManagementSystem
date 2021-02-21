@@ -143,7 +143,7 @@ namespace LibraryData.Migrations
                     b.Property<string>("ImageUrl")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("LibraryBranchId")
+                    b.Property<int?>("LocationId")
                         .HasColumnType("int");
 
                     b.Property<int>("NumberOfCopies")
@@ -161,7 +161,7 @@ namespace LibraryData.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("LibraryBranchId");
+                    b.HasIndex("LocationId");
 
                     b.HasIndex("StatusId");
 
@@ -365,13 +365,15 @@ namespace LibraryData.Migrations
 
             modelBuilder.Entity("LibraryData.Models.LibraryAsset", b =>
                 {
-                    b.HasOne("LibraryData.Models.LibraryBranch", null)
+                    b.HasOne("LibraryData.Models.LibraryBranch", "Location")
                         .WithMany("LibraryAssets")
-                        .HasForeignKey("LibraryBranchId");
+                        .HasForeignKey("LocationId");
 
                     b.HasOne("LibraryData.Models.Status", "Status")
                         .WithMany()
                         .HasForeignKey("StatusId");
+
+                    b.Navigation("Location");
 
                     b.Navigation("Status");
                 });

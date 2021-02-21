@@ -1522,6 +1522,19 @@
         "runtime": {
           "bin/placeholder/LibraryData.dll": {}
         }
+      },
+      "LibraryServices/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "LibraryData": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LibraryServices.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibraryServices.dll": {}
+        }
       }
     }
   },
@@ -5771,11 +5784,17 @@
       "type": "project",
       "path": "../LibraryData/LibraryData.csproj",
       "msbuildProject": "../LibraryData/LibraryData.csproj"
+    },
+    "LibraryServices/1.0.0": {
+      "type": "project",
+      "path": "../LibraryServices/LibraryServices.csproj",
+      "msbuildProject": "../LibraryServices/LibraryServices.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "LibraryData >= 1.0.0",
+      "LibraryServices >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.3",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.3"
@@ -5815,6 +5834,9 @@
           "projectReferences": {
             "C:\\Users\\husey\\source\\repos\\Library\\LibraryData\\LibraryData.csproj": {
               "projectPath": "C:\\Users\\husey\\source\\repos\\Library\\LibraryData\\LibraryData.csproj"
+            },
+            "C:\\Users\\husey\\source\\repos\\Library\\LibraryServices\\LibraryServices.csproj": {
+              "projectPath": "C:\\Users\\husey\\source\\repos\\Library\\LibraryServices\\LibraryServices.csproj"
             }
           }
         }
