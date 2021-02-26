@@ -82,3 +82,6 @@ C:\Users\husey\source\repos\Library\Library\bin\Debug\netcoreapp3.1\Microsoft.En
 C:\Users\husey\source\repos\Library\Library\bin\Debug\netcoreapp3.1\LibraryServices.dll
 C:\Users\husey\source\repos\Library\Library\bin\Debug\netcoreapp3.1\LibraryServices.pdb
 C:\Users\husey\source\repos\Library\Library\obj\Debug\netcoreapp3.1\Razor\Views\Catalog\Index.cshtml.g.cs
+C:\Users\husey\source\repos\Library\Library\obj\Debug\netcoreapp3.1\Razor\Views\Catalog\Detail.cshtml.g.cs
+C:\Users\husey\source\repos\Library\Library\obj\Debug\netcoreapp3.1\Razor\Views\Catalog\Checkout.cshtml.g.cs
+C:\Users\husey\source\repos\Library\Library\obj\Debug\netcoreapp3.1\Razor\Views\Catalog\Hold.cshtml.g.cs

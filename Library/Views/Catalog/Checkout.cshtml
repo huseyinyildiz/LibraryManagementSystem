@@ -1,0 +1,42 @@
+﻿@model Library.Models.CheckoutModels.CheckoutModel
+
+@section Scripts{
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+}
+@section Styles{
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+}
+<div class="container">
+    <div class="header clearfix detailHeading">
+        <h2 class="text-muted">Checkout Library Item</h2>
+    </div>
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-md-3">
+                <div>
+                    <p id="itemTitle">@Model.Title</p>
+                    <img class="detailImage" src="@Model.ImageUrl" />
+                </div>
+            </div>
+            <div class="col-md-9">
+                @using (Html.BeginForm("PlaceCheckout", "Catalog", FormMethod.Post))
+                {
+                    @Html.HiddenFor(a => a.AssetId)
+                    <div>
+                        Please insert a Library Card ID.
+                        @Html.TextBoxFor(a => a.LibraryCardId)
+                    </div>
+                    <div>
+                        <button type="submit" class="btn btn-success btn-lg">Check out</button>
+                    </div>
+                }
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
