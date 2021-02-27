@@ -86,3 +86,5 @@ C:\Users\husey\source\repos\Library\Library\obj\Debug\netcoreapp3.1\Razor\Views\
 C:\Users\husey\source\repos\Library\Library\obj\Debug\netcoreapp3.1\Razor\Views\Catalog\Hold.cshtml.g.cs
 C:\Users\husey\source\repos\Library\Library\obj\Debug\netcoreapp3.1\Razor\Views\Patron\Index.cshtml.g.cs
 C:\Users\husey\source\repos\Library\Library\obj\Debug\netcoreapp3.1\Razor\Views\Patron\Detail.cshtml.g.cs
+C:\Users\husey\source\repos\Library\Library\obj\Debug\netcoreapp3.1\Razor\Views\Branch\Index.cshtml.g.cs
+C:\Users\husey\source\repos\Library\Library\obj\Debug\netcoreapp3.1\Razor\Views\Branch\Detail.cshtml.g.cs
