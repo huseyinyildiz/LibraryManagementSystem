@@ -22,7 +22,6 @@ C:\Users\husey\source\repos\Library\Library\obj\Debug\netcoreapp3.1\Library.TagH
 C:\Users\husey\source\repos\Library\Library\obj\Debug\netcoreapp3.1\Library.TagHelpers.output.cache
 C:\Users\husey\source\repos\Library\Library\obj\Debug\netcoreapp3.1\Library.RazorCoreGenerate.cache
 C:\Users\husey\source\repos\Library\Library\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\husey\source\repos\Library\Library\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\husey\source\repos\Library\Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\husey\source\repos\Library\Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\husey\source\repos\Library\Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -85,3 +84,5 @@ C:\Users\husey\source\repos\Library\Library\obj\Debug\netcoreapp3.1\Razor\Views\
 C:\Users\husey\source\repos\Library\Library\obj\Debug\netcoreapp3.1\Razor\Views\Catalog\Detail.cshtml.g.cs
 C:\Users\husey\source\repos\Library\Library\obj\Debug\netcoreapp3.1\Razor\Views\Catalog\Checkout.cshtml.g.cs
 C:\Users\husey\source\repos\Library\Library\obj\Debug\netcoreapp3.1\Razor\Views\Catalog\Hold.cshtml.g.cs
+C:\Users\husey\source\repos\Library\Library\obj\Debug\netcoreapp3.1\Razor\Views\Patron\Index.cshtml.g.cs
+C:\Users\husey\source\repos\Library\Library\obj\Debug\netcoreapp3.1\Razor\Views\Patron\Detail.cshtml.g.cs
